@@ -71,6 +71,7 @@
   "scripts": {
     "format": "gulp format",
     "install_testapp": "cd testapp && npm install",
+    "postinstall": "gulp prepublish",
     "prepublish": "gulp prepublish",
     "pretest": "gulp pretest",
     "start": "cd testapp && npm start",
